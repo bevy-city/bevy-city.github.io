@@ -1,0 +1,66 @@
+;;
+;; Domain:     bevy.city.
+;; Exported:   2024-03-09 10:30:24
+;;
+;; This file is intended for use for informational and archival
+;; purposes ONLY and MUST be edited before use on a production
+;; DNS server.  In particular, you must:
+;;   -- update the SOA record with the correct authoritative name server
+;;   -- update the SOA record with the contact e-mail address information
+;;   -- update the NS record(s) with the authoritative name servers for this domain.
+;;
+;; For further information, please consult the BIND documentation
+;; located on the following website:
+;;
+;; http://www.isc.org/
+;;
+;; And RFC 1035:
+;;
+;; http://www.ietf.org/rfc/rfc1035.txt
+;;
+;; Please note that we do NOT offer technical support for any use
+;; of this zone data, the BIND name server, or any other third-party
+;; DNS software.
+;;
+;; Use at your own risk.
+;; SOA Record
+bevy.city	3600	IN	SOA	cora.ns.cloudflare.com. dns.cloudflare.com. 2046164682 10000 2400 604800 3600
+
+;; NS Records
+bevy.city.	86400	IN	NS	cora.ns.cloudflare.com.
+bevy.city.	86400	IN	NS	malcolm.ns.cloudflare.com.
+
+;; A Records
+bevy.city.	1	IN	A	75.2.60.5
+www.bevy.city.	1	IN	A	75.2.60.5
+
+;; CNAME Records
+api.bevy.city.	1	IN	CNAME	cube.cybroslabs.com.
+dev.api.bevy.city.	1	IN	CNAME	cube.cybroslabs.com.
+dev.iportal.bevy.city.	1	IN	CNAME	cube.cybroslabs.com.
+dev.sso.bevy.city.	1	IN	CNAME	dev-bevy-city-cd-utpi3ky8tul0rzgo.edge.tenants.eu.auth0.com.
+iportal.bevy.city.	1	IN	CNAME	cube.cybroslabs.com.
+keycloak.bevy.city.	1	IN	CNAME	keycloak.cube.cybroslabs.com.
+keycloak-test.bevy.city.	1	IN	CNAME	cube.cybroslabs.com.
+prod.sso.bevy.city.	1	IN	CNAME	bevy-city-cd-keiocw9sogyppjah.edge.tenants.eu.auth0.com.
+signoz.bevy.city.	1	IN	CNAME	cube.cybroslabs.com.
+sso-old.bevy.city.	1	IN	CNAME	cube.cybroslabs.com.
+staging.api.bevy.city.	1	IN	CNAME	cube.cybroslabs.com.
+staging.iportal.bevy.city.	1	IN	CNAME	cube.cybroslabs.com.
+staging.sso.bevy.city.	1	IN	CNAME	staging-bevy-city-cd-ystrb4cpguppcfup.edge.tenants.eu.auth0.com.
+structurizr.bevy.city.	1	IN	CNAME	cube.cybroslabs.com.
+
+;; MX Records
+bevy.city.	1	IN	MX	1 smtp.google.com.
+bevy.city.	1	IN	MX	10 alt4.aspmx.l.google.com.
+bevy.city.	1	IN	MX	10 alt3.aspmx.l.google.com.
+bevy.city.	1	IN	MX	5 alt2.aspmx.l.google.com.
+bevy.city.	1	IN	MX	5 alt1.aspmx.l.google.com.
+bevy.city.	1	IN	MX	1 aspmx.l.google.com.
+de.bevy.city.	1	IN	MX	1 smtp.google.com.
+
+;; TXT Records
+bevy.city.	1	IN	TXT	"google-site-verification=S2pnoQlCT2vGdfYkrfnpii25NMwhDCLypvWWXD2K86Q"
+bevy.city.	1	IN	TXT	"apple-domain-verification=hliflaA5pTVLRayX"
+bevy.city.	1	IN	TXT	"google-site-verification=3A406DvKPeckQzbsM5kBuODiIEYiVxFKllySgHnC-DI"
+bevy.city.spf.bevy.city.	1	IN	TXT	"v=spf1 ip4:217.16.189.160/27 include:_spf.google.com ~all"
