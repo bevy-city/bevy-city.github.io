@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="data:image/x-icon;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAVhJREFUeNp0UqFOA0EQ3VJEHSsrLzgSEg6Jog0fQB0WHI4cP0BPYih8Aa1EQT+AtFXIXgWaxSGPP+BNeZu8bK+TzM3ey+6bmTfTcrCz24sMYQav4X33b8/wBfwUPnl/eHlzDdYiQY6wJDaHe7hhAZ4xGlaAaKwEbft8fXz+7J8cfuM4IN6Fd/gomp097q3sfgR35ELFFjL+W8mPxDwr60mSDYKRZLT4hHILxJJYziTzbQQFew3MWhEfizZGcr6hgRl6uxbxrP8OsAPEO+JGWqKqeyXYlfMes0e7lJZqEl+lY9QWfvnISem1aGItLTHy0TaCOIUgopVCEm2gJEpwI9kct8/GeCyT8ByzB4lPCRaJBrbCDiQBPkyriPuiIkahHImmyNIjPpP21ksF0iol0Pka+6to42WU6/aaNAhSibaSy4I56lE17cGK22ZaHJFoKhVkDVq4PwEGAECnapgvn+UbAAAAAElFTkSuQmCC" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bevy - We always deliver</title>
+    <link rel="icon" href="data:image/x-icon;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAVhJREFUeNp0UqFOA0EQ3VJEHSsrLzgSEg6Jog0fQB0WHI4cP0BPYih8Aa1EQT+AtFXIXgWaxSGPP+BNeZu8bK+TzM3ey+6bmTfTcrCz24sMYQav4X33b8/wBfwUPnl/eHlzDdYiQY6wJDaHe7hhAZ4xGlaAaKwEbft8fXz+7J8cfuM4IN6Fd/gomp097q3sfgR35ELFFjL+W8mPxDwr60mSDYKRZLT4hHILxJJYziTzbQQFew3MWhEfizZGcr6hgRl6uxbxrP8OsAPEO+JGWqKqeyXYlfMes0e7lJZqEl+lY9QWfvnISem1aGItLTHy0TaCOIUgopVCEm2gJEpwI9kct8/GeCyT8ByzB4lPCRaJBrbCDiQBPkyriPuiIkahHImmyNIjPpP21ksF0iol0Pka+6to42WU6/aaNAhSibaSy4I56lE17cGK22ZaHJFoKhVkDVq4PwEGAECnapgvn+UbAAAAAElFTkSuQmCC" type="image/x-icon" >
+    <meta name="description" content="U našich klientů se specializujeme na pokrývání doručovacích špiček, takzvané „peak delivery“. Jsme flexibilní a po Praze jsme Vaše zboží schopni doručit již do 3 hodin od objednání. Seznam našich klientů je rozmanitý: Vy řekněte co a my to doručíme!" />
+    <meta property="og:image" content="https://i.ibb.co/kBCLXfB/DSC-4263.jpg" />
+  
+    <script type="module" crossorigin src="/assets/index-0b746c48.js"></script>
+    <link rel="stylesheet" href="/assets/index-20ca1799.css">
+  </head>
+  <body>
+    <div id="root"></div>
+    
+  </body>
+</html>

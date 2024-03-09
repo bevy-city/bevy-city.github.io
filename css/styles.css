@@ -1,0 +1,367 @@
+@font-face {
+    font-family: FuturaLTPro-Medium;
+    src: url('/assets/fonts/futura_lt_pro-medium.otf');
+}
+
+@font-face {
+    font-family: FuturaLTPro-Light;
+    src: url('/assets/fonts/futura_lt_pro-light.otf');
+}
+
+@font-face {
+    font-family: FuturaLTPro-Bold;
+    src: url('/assets/fonts/futura_lt_pro-bold.otf');
+    font-weight: bold;
+}
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif; */
+    font-family: FuturaLTPro-Medium;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #e1e0de;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+.padding-container {
+    margin: 0 70px;
+}
+
+/* Texts modifiers */
+.text_primary {
+    color: #247f5d;
+}
+
+.text_bolt {
+    font-family: FuturaLTPro-Bold;
+}
+
+.main {
+    width: 100%;
+    max-width: 1440px
+}
+
+/* --------- Header -------- */
+/* --------- ====== -------- */
+.header-container {
+    position: fixed;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    z-index: 999;
+}
+
+.header {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    max-width: 1300px;
+    height: 133px;
+    padding: 16px 0;
+}
+
+.header__edges {
+    flex-grow: 2;
+    width: 200px;
+}
+
+.book-now-img {
+    width: 150px;
+}
+
+.header__center {
+    height: inherit;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.header__center-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100%;
+}
+
+.header__center-button {
+    border: 0;
+    background: none;
+    font-family: FuturaLTPro-Bold;
+    font-size: 23px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.header__center-l-t-button {
+    position: relative;
+    right: 45px;
+}
+
+.header__center-r-t-button {
+    position: relative;
+    left: 45px;
+}
+
+.header__logo {
+    width: 350px;
+    padding: 0 30px;
+}
+
+.header__right {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.change-language {
+    display: flex;
+    align-items: center;
+    font-size: 26px;
+    font-family: FuturaLTPro-Medium;
+}
+
+.burger-menu {
+    display: none;
+}
+
+.explore-img {
+    width: 50px;
+}
+
+/* ---- Contact dialog ------*/
+/* ----- ============ -------*/
+.contact-dialog {
+    position: fixed;
+    margin-top: 165px;
+    width: 100%;
+    height: 0;
+    left: 0;
+    transition: height 0.2s;
+    overflow-y: hidden;
+    border-top: 1px solid #247f5d;
+    background-color: #fff;
+    z-index: 999;
+}
+
+.contact-dialog--open {
+    height: 245px;
+}
+
+.contact-dialog__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.contact-dialog__mobile-menu {
+    display: none;
+}
+
+.contact-dialog__title {
+    font-size: 26px;
+    font-family: FuturaLTPro-Bold;
+}
+
+.contact-dialog__desc {
+    text-align: center;
+}
+
+/* -------- Content ---------*/
+/* -------- ======= ---------*/
+.content {
+    padding-top: 235px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* --------- Intro --------- */
+/* --------- ===== --------- */
+.content__intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content__low-in-use {
+    display: flex;
+    width: 100%;
+    justify-content: end;
+}
+
+.content__low-in-use-img {
+    width: 110px;
+}
+
+.content__deliver-in-three-hours {
+    width: 690px;
+    margin-top: -100px;
+}
+
+.content__e-cars-co2-free {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.content__e-cars-co2-free-img {
+    position: relative;
+    width: 380px;
+    left: 260px;
+    bottom: 220px;
+}
+
+.content__e-cars-co2-free-mobile-img {
+    display: none;
+}
+
+.content__bevy-car {
+    margin-top: -360px;
+}
+
+.content__bevy-car-img {
+    width: 370px;
+    margin-bottom: -25px
+}
+
+.road {
+    width: 100%;
+}
+
+/* ------ Our Service -------*/
+/* ------ =========== -------*/
+.content__our-service {
+    display: flex;
+    padding-top: 100px;
+}
+
+.content__our-service-img {
+    width: 320px;
+    height: 240px;
+}
+
+.content__our-service-text {
+    margin-top: 60px;
+    margin-left: 40px;
+    font-size: 26px;
+}
+
+.content__ecommerce-groceries-food-pastries {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.content__ecommerce-groceries-food-pastries-img {
+    position: relative;
+    width: 360px;
+    top: -40px;
+    left: 350px;
+}
+
+.city-panorama {
+    width: 780px;
+    margin-top: -100px;
+    margin-right: 540px;
+}
+
+/* ------ Our Vision ------- */
+/* ------ ========== ------- */
+.our-vision {
+    display: flex;
+}
+
+.content__our-vision-text {
+    font-size: 26px;
+}
+
+.our_vision {
+    width: 320px;
+    height: 240px;
+    margin-left: 100px;
+}
+
+.forest {
+    width: 760px;
+    margin-left: 220px;
+    margin-bottom: 64px;
+}
+
+/* ----- Our Workflow ------ */
+/* ----- ============ ------ */
+.content__our-workflow-img-container {
+    width: 100%;
+    margin-bottom: 257px;
+}
+
+.our_workflow {
+    width: 480px;
+}
+
+.our-workflow__steps-diagram-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.our-workflow__steps-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.our-workflow__step {
+    display: flex;
+    align-items: center;
+    font-size: 26px;
+}
+
+.step_img {
+    width: 55px;
+    margin-right: 25px;
+}
+
+.workflow_diagram {
+    width: 310px;
+}
+
+/*
+     FILE ARCHIVED ON 06:04:13 Nov 11, 2022 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 10:48:32 Mar 09, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  exclusion.robots: 0.069
+  exclusion.robots.policy: 0.059
+  cdx.remote: 0.099
+  esindex: 0.009
+  LoadShardBlock: 339.824 (6)
+  PetaboxLoader3.datanode: 332.182 (8)
+  load_resource: 689.792
+  PetaboxLoader3.resolve: 544.978
+  loaddict: 34.767
+*/
